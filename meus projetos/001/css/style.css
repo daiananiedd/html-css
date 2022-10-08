@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+    --cor0:#0A4021;
+    --cor1:#0D7339;
+    --cor2:#3BD99F;
+    --cor3:#1BBF62;
+    --cor4:#1AD96D;
+
+    --fonte-padrao:  Arial, Sans-Serif;
+    --fonte-titulo: 'Playfair Display', Serif;
+    --fonte-destaque:'Lora', Arial, Sans-Serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor2);
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+
+header{
+    background-color: var(--cor2);
+    min-height: 150px;
+    color: rgb(0, 0, 0);
+}
+
+header > h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px;
+    font-size: 5em;
+    font-weight: lighter;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.295);
+}
+
+header > p{
+    color: rgb(0, 0, 0);
+    font-family: var(--fonte-titulo);
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    padding: 0px 0px 10px 0px;
+}
+
+nav{
+    background-color: transparent;
+    padding: 10px;
+    
+    text-align: center;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+
+nav > a{
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    padding: 10px;
+    color: var(--cor0);
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover{
+    background-color: var(--cor0);
+    color: var(--cor2);
+}
+
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main strong{
+    font-weight: bolder;
+    background-color: rgba(197, 11, 51, 0.911) ;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+main a{
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    background-color: rgba(182, 11, 197, 0.644) ;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main p{
+    padding: 10px;
+    text-indent: 30px;
+}
+
+footer{
+    background-color: var(--cor2);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+

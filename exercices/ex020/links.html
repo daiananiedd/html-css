@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body{
+            font: normal 1em normal arial, sans-serif;
+        }
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: rgb(247, 0, 33);
+        }
+
+        a:visited{
+            color: rgb(17, 142, 192);
+
+        }
+        a:hover{
+            text-decoration: underline ;
+        }
+      a::after{
+        content: '<<';
+        color: red;
+      }
+      a::before{
+        content: '>>';
+        color: red;
+      }
+      .especial{
+        background-color: black;
+        color: white;
+
+      }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <p>
+        <ul>
+            <li>Para aprender HTML5 e CSS3, acesse o <a target="_blank" href="https://gustavoguanabara.github.io">Github do Guanabara</a></li>
+            <li>Se quiser aprender mais sobre programação, acesse<a target="_blank" href="https://youtube.com/cursoemvideo">o canal no Youtube do Guanabara</a></li>
+            <li>Para fazer cursos relacionados a tecnologia, acesse o<a target="_blank" href="https://www.cursoemvideo.com" class="especial">Site do Curso em Video</a></li>
+        </ul>
+    </p>
+</body>
+</html>
