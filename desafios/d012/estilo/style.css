@@ -23,7 +23,7 @@ html, body{
 }
 
 header{
-    background-color: black;
+    background-color: rgb(23, 12, 68);
     color: white;
     text-align: center;
 }
@@ -67,19 +67,32 @@ section.normal{
 section.imagem{
     background-color: rgb(77, 75, 75);
     color: white;
-    
+    box-shadow: inset 7px 7px 14px 0px rgb(0, 0, 0);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.301);
+    background-color: rgba(0, 0, 0, 0.603);
     padding: 10px;
     display: inline-block;
     margin: auto;
     border-radius: 15px;
+    
 }
 
 section.normal > p{
-    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#img01{
+    background-image: url(../imagens/background01.jpeg);
+    background-position: right right;
+}
+
+section#img02{
+    background-image: url(../imagens/background02.jpg);
+    background-position: right bottom;
 }
 
 footer{
