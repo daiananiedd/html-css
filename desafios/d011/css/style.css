@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+   background-image: url(../imagens/espaco.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+  
+body .img {
+    width: 90vh;
+    height: 90vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+  
