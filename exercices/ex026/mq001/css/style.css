@@ -28,8 +28,12 @@ menu ul{
 }
 menu li{
     display: inline-flex;
-    padding: 20px;
+    margin: 20px 0px;
+    padding: 3px 20px;
+    background-color: rgb(219, 100, 56);
     font-weight: bold;
+   
+    
 }
 
 article{
