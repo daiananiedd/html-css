@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+html{
+    height: 1000px;
+}
+body{ 
+    margin: 8px;
+}
+p{
+    padding: 20px;
+}
+/*STATIC*/
+div{
+    background-color: cadetblue;
+    border: 1px solid black;
+    height: 60px;
+    padding: 10px;
+}
+/*RELATIVE
+não tem aplicabilidade nenhuma:(
+usar somente quando for usar absolute como filho dessa*/
+.relative{
+    background-color: rgb(90, 64, 39);
+    position: relative;
+}
+.relative-alterada{
+    top: 20px;
+    left: 20px;
+}
+/*ABSOLUTE*/
+.absolute{
+    background-color: darkmagenta;
+    position: absolute;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+}
+/*FIXED*/
+.fixed{
+    background-color: chartreuse;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+/*sticky*/
+.sticky{
+    background-color: crimson;
+    width: 80px;
+    position: sticky;
+    top: 10px;
+}
